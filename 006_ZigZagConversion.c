@@ -1,4 +1,4 @@
-/*
+/**
  * Easy
  * Not that easy
  */
@@ -36,7 +36,8 @@ char* convert(char* s, int numRows) {
     return ans;
 }
 
-int main() {
+int main(void) 
+{
     char str1[] = "PAYPALISHIRING";
     printf("%s \n", convert(str1, 14));
 
